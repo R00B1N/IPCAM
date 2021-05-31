@@ -39,6 +39,8 @@ def switch():
 1-Colombia.            5-Francia.
 2-Estados Unidos.      6-China.
 3-Brazil               
+
+00-> Salir
 	"""
 	print(Fore.GREEN)
 	print(menu)
@@ -113,3 +115,8 @@ while True:
 			print("Press any key...")
 			input()
 			os.system('clear')
+		
+		else:
+			if ask==00:
+				print("see you soon")
+				break
