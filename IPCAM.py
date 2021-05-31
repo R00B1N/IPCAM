@@ -53,6 +53,7 @@ while True:
 			aleat()
 			print("Press any key...")
 			input()
+			os.system('clear')
 
 		elif ask==1:
 			print("\nCharging....")
@@ -61,8 +62,7 @@ while True:
 			colombia()
 			print("Press any key...")
 			input()
-			
-			os.system('cls')
+			os.system('clear')
 
 
 		elif ask==2:
@@ -72,7 +72,7 @@ while True:
 			usa()
 			print("Press any key...")
 			input()
-			os.system('cls')
+			os.system('clear')
 
 
 		elif ask==3:
@@ -82,16 +82,21 @@ while True:
 			brasil()
 			print("Press any key...")
 			input()
-			os.system('cls')
+			os.system('clear')
 
 
 		elif ask==4:
 			print("Charging...")
 			time.sleep(2)
+			print("\n")
+			italia()
+			print("Press any key...")
+			input()
+			os.system('clear')
 			
 			print("Press any key...")
 			input()
-			os.system('cls')
+			os.system('clear')
 
 		elif ask==5:
 			print("Charging...")
@@ -99,7 +104,7 @@ while True:
 			
 			print("Press any key...")
 			input()
-			os.system('cls')
+			os.system('clear')
 
 		elif ask==6:
 			print("Charging...")
@@ -107,4 +112,4 @@ while True:
 			
 			print("Press any key...")
 			input()
-			os.system('cls')
+			os.system('clear')
