@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Se actualizara el script..."
+sleep 2s
+cd ..
+rm -fr IPCAM
+echo "se ha removido el archivo anterior"
+sleep 1s
+ech "Instalando la nueva version del script"
+git clone https://github.com/Blacksterhack/IPCAM
+sleep 2s
+cd IPCAM
+echo "Se ha instalado la nueva version del Script"
+sleep 2s
+python IPCAM.py
