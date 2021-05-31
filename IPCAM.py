@@ -21,7 +21,7 @@ banner = """
 """
 
 def switch():
-	os.system('cls')
+	os.system('clear')
 	print(banner)
 	print(Fore.RED)
 	print("Created By Blackster")
