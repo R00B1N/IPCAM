@@ -40,7 +40,7 @@ def switch():
 2-Estados Unidos.      6-China.
 3-Brazil               
 
-00-> Salir
+99-> Salir
 	"""
 	print(Fore.GREEN)
 	print(menu)
@@ -117,6 +117,6 @@ while True:
 			os.system('clear')
 		
 		else:
-			if ask==00:
+			if ask==99:
 				print("see you soon")
 				break
