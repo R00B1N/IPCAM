@@ -11,4 +11,6 @@ sleep 2s
 cd IPCAM
 echo "Se ha instalado la nueva version del Script"
 sleep 2s
+chmod +x *
+sleep 1s
 python IPCAM.py
