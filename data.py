@@ -47,3 +47,9 @@ def brasil():
 	for lineas in bra.readlines():
 		print(lineas)
 		bra.close()
+
+def italia():
+	ita = urlopen("https://pastebin.com/raw/6nD65abE")
+	for lineas in ita.readlines():
+		print(lineas)
+		ita.close()
